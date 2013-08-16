@@ -148,8 +148,7 @@ margin: 0 auto;
 </div>
 
 
-<div class="row-fluid enter">
-<div class="span5 offset2 row-fluid menu">
+<div class="span5 offset1 row-fluid menu">
 <ul class="nav nav-tabs">
 <li class="active"><a href="#">Home</a></li>
 <li><a href="#">Work</a></li>
@@ -158,23 +157,42 @@ margin: 0 auto;
 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
 Time <span class="caret"></span></a>
 <ul class="dropdown-menu">
-<li>Yesterday</li>
-<li>Today</li>
-<li>Tomorrow</li>
+<li><a href="#">Yesterday</a></li>
+<li><a href="#">Today</a></li>
+<li><a href="#">Tomorrow</a></li>
 </ul>
 </li>
 </ul>
 </div> 
 
-
-<form class="span5 form-inline">
-  <input type="text" class="form-control" placeholder="Email">
-  <input type="password" class="form-control" placeholder="Password">
-  <button type="submit" class="btn btn-default">Sign in</button>
-</form>
+<div class="row-fluid section1">
+<div class="span5 offset1 copy copy-right">
+<h2>PURPOSE</h2>
+<p>Brightening your world with the kinds of things you don't always realize you want, but make your whole world better, like a semi-regular dose of five British women singing in lycra.
+</div>
+<div  id="about" class="span5 asset1">
+<iframe width="420" height="315" src="//www.youtube.com/embed/gJLIiF15wjQ" frameborder="0" allowfullscreen></iframe>
+</div>
 </div>
 
+<div class="row-fluid section2">
+<div class="span5 offset1 copy copy-right">
+<p>Why would you lie about how much coal you have?</p>
+<p>Why would you lie about something dumb like that?</p>
+<p>Why would you lie about anything at all?</p>
+<p>First the window, then it's to the wall.</p>
+</div>
+<div class="span5 copy">
+<p>Loving you isn't the right thing to do.</p>
+<p>How can I ever change things that I feel?</p>
+<p>If I could, maybe I'd give you my world.</p>
+<p>How can I when you won't take it from me?</p>
+</div>
+</div>
+
+
 <div class="row-fluid pitch">
+
 <div class="span5 offset1 video">
 <img class="img-rounded" alt="placeholder" src="http://i1282.photobucket.com/albums/a527/burgesstravis/IFFR2012_OfficialSelection-1_zps20c08b0a.jpg">
 </div>
@@ -211,11 +229,36 @@ Time <span class="caret"></span></a>
 
 <div class="row-fluid">
 <div class="span6 offset3 order">
-<button class="btn btn-info btn-large">Start</button>
+<button type ="button" class="btn btn-info btn-lg" href="#subscribe" data-toggle="modal">Subscribe</button>
 </div>
 
+
+<div id="subscribe" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="contactLable"
+        aria-hidden="true">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+</div>
+        <div class="modal-body">
+            <form method="post" action="/">
+                <fieldset>
+              <legend>Tell us about YOU</legend>
+                    <label>Email</label>
+                    <input name="email" type="email" placeholder="E-mail" required="required"/>
+                    <label>Interests</label>
+                    <textarea name="message" placeholder="A few of your favorite things" required="required"></textarea>
+                    <div style="width:100%">
+                        <button type="submit" class="btn">Sign Up!</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+    </div
+</div>
+
+
 <div class="span6 offset3 order">
-<a class="coinbase-button" data-code="b0c722060770549dc2b94f3ea94546d6" data-button-style="subscription_large" href="https://coinbase.com/checkouts/b0c722060770549dc2b94f3ea94546d6">Pay via Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+<a class="coinbase-button" data-code="b0c722060770549dc2b94f3ea94546d6" data-button-style="custom_small" data-button-text="Fund with Bitcoin" href="https://coinbase.com/checkouts/b0c722060770549dc2b94f3ea94546d6">Fund with Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
 </div>
 </div>
 
@@ -238,34 +281,6 @@ Time <span class="caret"></span></a>
 </div>
 </div>
 </div>
-
-<div class="row-fluid section1">
-<div  id="about" class="span5 offset1 asset1">
-<iframe width="420" height="315" src="//www.youtube.com/embed/gJLIiF15wjQ" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<div class="span5 copy">
-<p>Loving you isn't the right thing to do.</p>
-<p>How can I ever change things that I feel?</p>
-<p>If I could, maybe I'd give you my world.</p>
-<p>How can I when you won't take it from me?</p>
-</div>
-
-</div>
-
-
-<div class="row-fluid section2">
-<div class="span5 offset1 copy copy-right">
-<p>Why would you lie about how much coal you have?</p>
-<p>Why would you lie about something dumb like that?</p>
-<p>Why would you lie about anything at all?</p>
-<p>First the window, then it's to the wall.</p>
-</div>
-<div class="span5 asset">
-<img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
-</div>
-</div>
-
 
 <div class="row-fluid faq">
 <div class="span10 offset1">
