@@ -36,7 +36,6 @@ border-top: 1px white solid;
 }
 }
 
-
 /* All form factors */
       /* Main body and headings */
       body{
@@ -57,7 +56,6 @@ background: -ms-linear-gradient(top, rgba(235,241,246,1) 0%,rgba(235,241,246,1) 
 background: linear-gradient(to bottom, rgba(235,241,246,1) 0%,rgba(235,241,246,1) 6%,rgba(171,211,238,1) 100%,rgba(213,235,251,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=0 ); /* IE6-9 */
      }
-	 
 .carousel .item{
 height: 288px;
 }
@@ -68,10 +66,17 @@ max-height: 100%;
 margin-left: auto;
 margin-right: auto;
 }
-	    .intro{
+	    .intro, .heading{
   padding-top: 5%;		
 }
-      p.lead {
+      .navbar{
+	  background-color: #5bc0de;
+	  }
+	  .navbar-brand, .navbar-nav > li > a{
+	color: black;
+}
+	  
+	  p.lead {
         padding-top: 1.5%;
         font-size: 24px;
         line-height: 30px;
@@ -87,14 +92,10 @@ margin-right: auto;
         padding: 2.5% 0%;
       }
 	   
-      .intro, .video, .thermometer, .order, .social, .statistics, .list{
+      .intro, .video, .thermometer, .order, .social, .list{
         text-align: center;
       }
 	  
-      .statistics h3, .statistics p {
-        color: white;
-      }
-
       /* Marketing Copy and Footer */
       .copy {
         padding-top: 7.5%;
@@ -122,8 +123,7 @@ margin-right: auto;
 </style>
 </head>
 <body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -131,20 +131,24 @@ margin-right: auto;
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">Life Primer</a>
+          <a class="navbar-brand" href="#">Life Primer</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">Home</a></li>
 			<li><a href="#purpose">About</a></li>
 			<li><a href="#contact"><i class="icon-heart"></i>Contact MSH</a></li>        
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </div>
 
 <div class="header">
 <div class="row-fluid heading">
+<script type="text/javascript">
+ var now = "today is " + Date();
+ alert(now);
+</script>
 <h1>The Best of Your Everything</h1>
 <i class="icon-star"></i>
 </div>
@@ -177,16 +181,6 @@ margin-right: auto;
 
 <div class="intro">
 <button type ="button" class="btn btn-info btn-lg" href="#subscribe" data-toggle="modal">Sign Up</button>
-<!-- <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-<button class="btn btn-facebook"><i class="icon-facebook"></i><a href="http://www.facebook.com/melissa.halfon"> | Facebook</a></button> -->
-
-<!--div class="addthis_toolbox addthis_default_style addthis_32x32_style offset4" style="padding: 3% 3%;">
-<a class="addthis_button_facebook"></a>
-<a class="addthis_button_twitter"></a>
-<a class="addthis_button_gmail"></a>
-<a class="addthis_button_pinterest_share"></a>
-<a class="addthis_counter addthis_bubble_style"></a>
-</div-->
 
 </div>
 <div class="row-fluid section1">
@@ -200,9 +194,8 @@ margin-right: auto;
   <a class="list-group-item active">Spanish Fluency</a>
   <a class="list-group-item">Argentina Travel</a>
   <a class="list-group-item">Make a chicken pot pie</a>
-  <a class="list-group-item">Watch Traffic with Travis</a>
   <a class="list-group-item">Take a pottery class with Adrienne</a>
-  <a href="#" class="list-group-item">Play flag football game</a> 
+  <a class="list-group-item">Get awesome at pool this winter</a>
 </div>
 </div>
 </div>
@@ -289,7 +282,7 @@ A question which is commonly asked by users.
 </div>
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="http://www.melissahalfon.com/wp-content/uploads/2013/10/jquery.js"></script>
-<script src="http://www.melissahalfon.com/wp-content/uploads/2013/10/bootstrap.js"></script>
+<script src="http://www.melissahalfon.com/wp-content/uploads/2013/10/bootstrap.min_.js"></script>
 <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52095d944f19d43d"></script>
 <!--<script src="http://code.jquery.com/jquery.js"></script>-->
