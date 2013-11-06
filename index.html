@@ -81,10 +81,6 @@ margin-right: auto;
         font-size: 24px;
         line-height: 30px;
       }
-      p {
-        font-size: 18px;
-        line-height: 24px;
-      }
 	  
 /* Video pitch and Action */
 
@@ -106,12 +102,12 @@ margin-right: auto;
       .list {	 
         padding: 2.5% 7%;
       }
+	  
 	   .asset2 {
         padding: 3% 0%;
       }
       .footer {
        color: #cccccc; 
-        text-align: center;
       }
       .footer p {
         font-size: 11px;
@@ -136,7 +132,8 @@ margin-right: auto;
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
 			<li><a href="#">Home</a></li>
-			<li><a href="#purpose">About</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#faq">FAQ</a></li>
 			<li><a href="#contact"><i class="icon-heart"></i>Contact MSH</a></li>        
           </ul>
         </div>
@@ -152,9 +149,9 @@ margin-right: auto;
 <h1>The Best of Your Everything</h1>
 <i class="icon-star"></i>
 </div>
-<div class="row-fluid subheading">
+<!--div class="row-fluid subheading">
 <p class="lead">Solving life's puzzles, one piece at a time</p>
-</div>
+</div-->
 
 <div id="myCarousel" class="carousel slide">
 <ol class="carousel-indicators">
@@ -178,39 +175,40 @@ margin-right: auto;
 </div>
 </div>
 <div class="container">
-
-<div class="intro">
+<div class="intro" id="about">
 <button type ="button" class="btn btn-info btn-lg" href="#subscribe" data-toggle="modal">Sign Up</button>
+</div>
+<div class="row-fluid purpose">
+<h3 class="text-primary">PURPOSE: To help you make your big things happen.</h3>
+</div>
 
+<div class="row-fluid long_about">
+<div class="span5">
+<p>Life Primer is a way to help you get things done&mdash;big things.</p>
+Life Primer is not a to-do list organizer. We don't want to help you manage your everyday tasks like laundry and 
+getting your boots repaired and calling your mom. (We do want you to call your mom, though. Finish reading this and then go call your mom!)
+Life Primer is about things bigger than that, the things that might take years to accomplish, because those are the tough things to get done. We want to make it easier.</p>
+<p><i>"I should take some rock climbing lessons...and then travel to Africa and climb Mt. Kilimanjaro"</i></p>
+<p>We all have Kilimanjaro dreams and we all talk about those dreams, but too often do we keep them in a dreamy state in our minds and never weave them into our real lives where we actually do things.
+Life Primer is about doing. By linking your list items to local, national, and international happenings that match your goals, we want to help you take action.
+For our climber dreamer up there, we might let him know of any outdoor sports classes offered in his city or notify him when flights to Tanzania go on sale.
+Our goal is to help you meet your goals all while tracking your progress along the way and sharing your actions with the people you care about and care to share with.</p>
 </div>
-<div class="row-fluid section1">
-<div id="purpose" class="span5 offset1 copy copy-right">
-<h2>PURPOSE</h2>
-<p>Brightening your world with a collection of ideas that are certain to better your existence.</p>
 </div>
+
 <div class="list">
-<h2>HAPPENING</h2>
+<h3>Melissa's Example Life Primer List</h3>
 <div class="list-group">
   <a class="list-group-item active">Spanish Fluency</a>
   <a class="list-group-item">Argentina Travel</a>
-  <a class="list-group-item">Make a chicken pot pie</a>
+  <a class="list-group-item">Get awesome at playing pool this winter</a>
+  <a class="list-group-item">Take a woodworking class with Lauren</a>
   <a class="list-group-item">Take a pottery class with Adrienne</a>
-  <a class="list-group-item">Get awesome at pool this winter</a>
-</div>
 </div>
 </div>
 
 <div class="span5 offset1 video">
 <img class="img-rounded" alt="placeholder" src="http://www.melissahalfon.com/wp-content/uploads/2013/08/Canyon-400x300.jpg">
-</div>
-
-<div class="row-fluid section2">
-<div id="contact" class="span5 copy">
-<p>Loving you isn't the right thing to do.</p>
-<p>How can I ever change things that I feel?</p>
-<p>If I could, maybe I'd give you my world.</p>
-<p>How can I when you won't take it from me?</p>
-</div>
 </div>
 
 <div class="span6 offset3 order">
@@ -242,42 +240,54 @@ margin-right: auto;
 	</div>
 </div>
 
-<div class="row-fluid faq">
+<div class="row-fluid faq" id="faq">
 <div class="span10 offset1">
 <h3>FAQ</h3>
 <div class="accordion" id="accordion2">
 <div class="accordion-group">
 <div class="accordion-heading">
-<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-What does FAQ stand for?
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse1">
+Life Primer talks a lot about doing, but this site doesn't seem to actually DO anything yet. Is that fair to say?
 </a>
 </div>
-<div id="collapseOne" class="accordion-body collapse">
+<div id="collapse1" class="accordion-body collapse">
 <div class="accordion-inner">
-Frequently Asked Question.
+It is quite fair. The first thing on my real Life Primer list is to get LifePrimer.com up and running for prospective users.
 </div>
 </div>
 </div>
 <div class="accordion-group">
 <div class="accordion-heading">
-<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-What's a Frequently Asked Question?
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse2">
+Do you have an approximate launch date?
 </a>
 </div>
-<div id="collapseTwo" class="accordion-body collapse">
+<div id="collapse2" class="accordion-body collapse">
 <div class="accordion-inner">
-A question which is commonly asked by users.
+Yes. The approximate approximation is some time in the next five years. Patience is a virture. Thanks for waiting.
+</div>
+</div>
+</div>
+<div class="accordion-group">
+<div class="accordion-heading">
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse3">
+How can I ever change things that I feel for you? If I could, maybe I'd give you my world. How can I when you won't take it from me?
+</a>
+</div>
+<div id="collapse3" class="accordion-body collapse">
+<div class="accordion-inner">
+These questions are impossible to answer. They belong in a Fleetwood Mac song, not an FAQ section. Sorry for the distraction.
 </div>
 </div>
 </div>
 </div>
 </div>
 </div>
-
+<div class="row-fluid contact" id="contact">
+<h3>CONTACT</h3><p class="text-warning">E-mail me with thoughts, suggestions, questions, complaints, and recipes. <a href:"mailto:#">Msmahliss@gmail.com</a></p>
+</div>
 <div class="row-fluid footer">
-<div class="span12">
 <p>This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a> , without all the cruft that would otherwise be put at the bottom of the page.</p>
-</div>
 </div>
 </div>
 <!-- Placed at the end of the document so the pages load faster -->
@@ -285,6 +295,5 @@ A question which is commonly asked by users.
 <script src="http://www.melissahalfon.com/wp-content/uploads/2013/10/bootstrap.min_.js"></script>
 <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52095d944f19d43d"></script>
-<!--<script src="http://code.jquery.com/jquery.js"></script>-->
 </body>
 </html>
