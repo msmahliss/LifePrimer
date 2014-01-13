@@ -1,0 +1,106 @@
+/*Large desktop */
+@media (min-width: 980px) {
+body {
+padding-top: 40px;
+}
+.linediv-l {
+border-right: 2px white solid;
+}
+.linediv-r {
+border-left: 2px white solid;
+}
+}
+/*Landscape phones and down*/
+@media (max-width: 480px) {
+.copy {
+padding: 2.5% 10%;
+}
+.linediv-l {
+border-bottom: 1px white solid;
+}
+.linediv-r {
+border-top: 1px white solid;
+}
+}
+
+/* All form factors */
+      /* Main body and headings */
+      body{
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	  }
+	  
+	  .main, .header{	  
+	  margin: 0% 10% 0% 10%;
+	  background-color:  rgb(170, 200, 230);
+	  max-width: 1000px;
+	  }
+	  .main{
+	  padding-left:  5%;
+	  padding-right: 5%;
+	  }
+      .heading, .subheading, .menu{
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+		text-align: center;
+		}
+
+.carousel .item{
+height: 288px;
+}
+	 
+.carousel-inner > .item  >img{
+max-width: 100%;
+max-height: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+	    .intro, .heading{
+  padding-top: 5%;		
+}
+      .navbar{
+	  background-color: #5bc0de;
+	  }
+	  .navbar-brand, .navbar-nav > li > a{
+	color: black;
+}
+	  
+	  p.lead {
+        padding-top: 1.5%;
+        font-size: 24px;
+        line-height: 30px;
+      }
+	  
+      .order {
+        padding: 2.5% 0%;
+      }
+	  
+	  .list{
+	  }
+	   
+      .intro, .order{
+        text-align: center;
+      }
+	  
+      /* Marketing Copy and Footer */
+      .copy {
+        padding-top: 7.5%;
+        padding-bottom: 2.5%;
+        text-align: center;
+      }
+	  
+	  h3{
+		color: DarkSlateBlue;
+	  }
+	  
+	   .asset2 {
+        padding: 3% 0%;
+      }
+      .footer {
+       color: #cccccc; 
+      }
+      .footer p {
+        font-size: 11px;
+      }
+      .footer a {
+        color: #ccccff;
+      }
+	  
